@@ -8,3 +8,9 @@
 | Validación | Revisión humana del equipo y ajuste al caso |
 | Correcciones | Completar con evidencias reales, métricas y decisiones |
 | Responsable | Integrante que valide y asuma la decisión final |
+| Propósito | Generar el componente visual de calendario para el prototipo |
+| Entrada | "Crea un calendario en este cuadro" (en Figma) |
+| Salida utilizada | Calendario mensual de Octubre 2024 |
+| Validación | Revisión visual del equipo y ajuste de tamaño |
+| Correcciones | Se ajustó el diseño para que coincida con el wireframe |
+| Responsable | (Escribe aquí tu nombre) |
