@@ -13,7 +13,7 @@
 | Salida utilizada | Calendario mensual de Octubre 2024 |
 | Validación | Revisión visual del equipo y ajuste de tamaño |
 | Correcciones | Se ajustó el diseño para que coincida con el wireframe |
-| Responsable | (Escribe aquí tu nombre) |
+| Responsable | CARLOS CANO |
 | Propósito | Generar prototipo de alta fidelidad para la Iteración 1 |
 | Entrada | Descripción de pantallas de reserva de turnos |
 | Salida utilizada | Prototipo visual completo en Figma (Figma Make) |
