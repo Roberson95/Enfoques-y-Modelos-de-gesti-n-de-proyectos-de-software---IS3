@@ -9,9 +9,9 @@
 
 ## Integrantes y Roles
 
-- **[Oscar Román]:** Product Owner & UX Lead (Responsable de $I_1$)
-- **[Maximiliano Gaona]:** Analista QA & Métricas (Responsable de $I_2$)
-- **[Carlos Cano]:** DevOps & Configuración (Responsable de $I_3$)
+- **Oscar Román:** Product Owner & UX Lead (Responsable de $I_1$)
+- **Maximiliano Gaona:** Analista QA & Métricas (Responsable de $I_2$)
+- **Carlos Cano:** DevOps & Configuración (Responsable de $I_3$)
 
 ---
 
@@ -42,6 +42,8 @@ Para evaluar el desarrollo del trabajo por unidades, acceder a los siguientes ar
 ### Control de Iteraciones
 - 📁 [Iteración 1: Validar flujo básico de reserva](docs/iteraciones/i1.md)
 - 📁 [Iteración 2: Validar reprogramación y Evento de Cambio](docs/iteraciones/i2.md)
+- 📁 [Iteración 3: Validar panel admin y privacidad](docs/iteraciones/i3.md)
+- 📁 [Iteración 4: Validar integración simulada y rendimiento](docs/iteraciones/i4.md)
 
 ---
 
