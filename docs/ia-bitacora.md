@@ -7,15 +7,21 @@
 | Salida utilizada | Estructura, tablas y criterios preliminares |
 | Validación | Revisión humana del equipo y ajuste al caso |
 | Correcciones | Completar con evidencias reales, métricas y decisiones |
-| Responsable | Integrante que valide y asuma la decisión final |
+| Responsable | Oscar Román |
+
+| Campo | Registro |
+|---|---|
 | Propósito | Generar el componente visual de calendario para el prototipo |
 | Entrada | "Crea un calendario en este cuadro" (en Figma) |
 | Salida utilizada | Calendario mensual de Octubre 2024 |
 | Validación | Revisión visual del equipo y ajuste de tamaño |
 | Correcciones | Se ajustó el diseño para que coincida con el wireframe |
-| Responsable | CARLOS CANO |
+| Responsable | Carlos Cano |
+
+| Campo | Registro |
+|---|---|
 | Propósito | Generar prototipo de alta fidelidad para la Iteración 1 |
 | Entrada | Descripción de pantallas de reserva de turnos |
 | Salida utilizada | Prototipo visual completo en Figma (Figma Make) |
 | Validación | Revisión visual del equipo y ajuste de flujo |
-| Responsable | (Escribe tu nombre) |
+| Responsable | Maximiliano Gaona |
