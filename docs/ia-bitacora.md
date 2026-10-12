@@ -7,7 +7,7 @@
 | Salida utilizada | Estructura, tablas y criterios preliminares |
 | Validación | Revisión humana del equipo y ajuste al caso |
 | Correcciones | Completar con evidencias reales, métricas y decisiones |
-| Responsable | Oscar Román |
+| Responsable | Carlos Cano |
 
 | Campo | Registro |
 |---|---|
@@ -16,7 +16,7 @@
 | Salida utilizada | Calendario mensual de Octubre 2024 |
 | Validación | Revisión visual del equipo y ajuste de tamaño |
 | Correcciones | Se ajustó el diseño para que coincida con el wireframe |
-| Responsable | Carlos Cano |
+| Responsable | Oscar Román |
 
 | Campo | Registro |
 |---|---|
