@@ -13,7 +13,7 @@
 |---|---|
 | Propósito | Generar el componente visual de calendario para el prototipo |
 | Entrada | "Crea un calendario en este cuadro" (en Figma) |
-| Salida utilizada | Calendario mensual de Octubre 2024 |
+| Salida utilizada | Calendario mensual de Octubre 2026 |
 | Validación | Revisión visual del equipo y ajuste de tamaño |
 | Correcciones | Se ajustó el diseño para que coincida con el wireframe |
 | Responsable | Oscar Román |
