@@ -2,7 +2,7 @@
 
 ## D1 — Evento de cambio obligatorio (Iteración 2)
 
-**Fecha:** ESCRIBIR AQUÍ LA FECHA DE LA PRUEBA DE LA ITERACIÓN 2 (dd/mm/aaaa)
+**Fecha:** (19/11/2026)
 **Contexto:** En la prueba de la iteración 2, el 35 % de participantes no logró reprogramar un turno y el personal administrativo solicitó agregar más campos.
 
 **Interpretación del equipo:** El problema principal no parece ser falta de campos, sino comprensión del flujo de reprogramación. Agregar campos ahora aumentaría complejidad y podría empeorar la usabilidad.
