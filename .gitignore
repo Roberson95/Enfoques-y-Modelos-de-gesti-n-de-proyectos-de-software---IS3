@@ -19,3 +19,11 @@ Thumbs.db
 # Build
 dist/
 build/
+
+# Bases de datos y copias de seguridad (contienen datos personales: nunca subirlas)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
