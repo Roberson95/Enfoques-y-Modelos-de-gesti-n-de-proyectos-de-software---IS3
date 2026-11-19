@@ -4,11 +4,13 @@
 
 | Integrante | Rol principal | Responsabilidades |
 |---|---|---|
-| A | Product Owner / UX Lead | Define hipótesis, prioriza feedback, coordina pruebas con usuarios, diseña en Figma. |
-| B | Analista QA / Métricas | Define criterios de calidad, ejecuta pruebas de usabilidad, mantiene tablero y métricas. |
-| C | DevOps / Configuración | Versiona prototipos, mantiene repo, pipeline CI, documenta decisiones y cambios. |
+| Oscar Román | Product Owner / UX Lead | Define hipótesis, prioriza feedback, coordina pruebas con usuarios, diseña en Figma. |
+| Maximiliano Gaona | Analista QA / Métricas | Define criterios de calidad, ejecuta pruebas de usabilidad, mantiene tablero y métricas. |
+| Carlos Cano | DevOps / Configuración | Versiona prototipos, mantiene repo, pipeline CI, documenta decisiones y cambios. |
 
-**Rotación de facilitador:** I1 → A, I2 → B, I3 → C, I4 → A.
+**Rotación de facilitador:** I1 → Oscar Román, I2 → Maximiliano Gaona, I3 → Carlos Cano, I4 → Oscar Román.
+
+En las tablas del registro de riesgos, la columna «Resp.» usa las iniciales: **OR** (Oscar Román), **MG** (Maximiliano Gaona) y **CC** (Carlos Cano).
 
 ## Canales de comunicación
 

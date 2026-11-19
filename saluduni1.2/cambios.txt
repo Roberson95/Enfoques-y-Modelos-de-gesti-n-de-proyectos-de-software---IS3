@@ -4,6 +4,14 @@ Historial de cambios de saluduni
 Este archivo contiene información sobre los cambios en las versiones más recientes de saluduni.
 https://saluduni.pythonanywhere.com/
 
+1.2.1		19/11/2026
+-------------------------
+- Accesibilidad: se oscurecieron el verde, el gris y el rojo de la interfaz para cumplir el contraste mínimo de WCAG 2.1 AA (4,5:1) en modo claro y oscuro.
+- Accesibilidad: todos los campos de texto, fechas y listas desplegables tienen un nombre accesible para lectores de pantalla.
+- Accesibilidad: las tarjetas de profesionales se pueden abrir con el teclado (Tab y Enter), y los avisos se anuncian en los lectores de pantalla.
+- Sin cambios en el servidor ni en la base de datos.
+
+
 1.2		19/11/2026
 -------------------------
 - Copia de la base: el admin tiene una pestaña nueva, Sistema, con el botón “Descargar copia de saluduni.db”. La copia sale bien aunque haya gente usando la app en ese momento. El archivo se llama con la fecha, por ejemplo saluduni-20261119-1657.db.
