@@ -1,0 +1,25 @@
+Historial de cambios de saluduni
+--------------------
+
+Este archivo contiene información sobre los cambios en las versiones más recientes de saluduni.
+https://saluduni.pythonanywhere.com/
+
+1.2		19/11/2026
+-------------------------
+- Copia de la base: el admin tiene una pestaña nueva, Sistema, con el botón “Descargar copia de saluduni.db”. La copia sale bien aunque haya gente usando la app en ese momento. El archivo se llama con la fecha, por ejemplo saluduni-20261119-1657.db.
+- Horarios propios: en Profesionales, cada uno tiene un botón Horarios. Ahí se eligen los días, una o más franjas por día (por ejemplo 08:00–12:00 y 15:00–18:00), la duración de la consulta (10 a 60 min) y los bloqueos por vacaciones o licencias. Los pacientes solo ven los días y horarios que existen. Los profesionales que ya tenías quedaron con el mismo horario de antes, de lunes a sábado. Si cambiás un horario o cargás un bloqueo y quedan turnos ya reservados afuera, la app avisa cuántos son, pero no los cancela sola.
+- Registro de actividad: también está en Sistema. Muestra ingresos, intentos de ingreso fallidos, reservas, cancelaciones y todos los cambios del admin y de los profesionales, con fecha, usuario e IP. Se puede buscar y filtrar.
+- Acceso del profesional: en cada profesional aparece “Crear acceso”, donde le asignás un usuario y una contraseña inicial que tendrá que cambiar al entrar. Con esa cuenta ve su agenda con todos los turnos y el nombre del paciente. La agenda se filtra por día, por próximos o anteriores y por estado, y ahí puede marcar un turno como atendido o cancelarlo. También puede editar sus propios horarios y bloqueos, pero no los de otros profesionales.
+
+
+1.1		06/11/2026
+-------------------------
+- Cambiar la propia contraseña: en Perfil hay un formulario con la contraseña actual, la nueva y su repetición. 
+La nueva debe tener al menos 6 caracteres y ser distinta de la actual. Al cambiarla se cierran las sesiones abiertas en otros dispositivos.
+- Restablecer desde el admin: en Usuarios, cada usuario tiene un botón “Restablecer contraseña”. 
+El sistema genera una clave temporal de 8 caracteres y se la muestra al admin una sola vez, para que se la pase al usuario. La sesión que tuviera abierta ese usuario se cierra.
+- Cambio obligatorio: quien entra con una clave temporal solo puede cambiarla o salir, y el servidor rechaza cualquier otra acción hasta que lo haga. 
+Lo mismo vale para los usuarios nuevos que cree el admin: su clave inicial pasa a ser temporal.
+- Protecciones: el admin no puede restablecerse a sí mismo (usa Perfil), y hay un bloqueo de 5 minutos tras 5 intentos fallidos de cambiar la clave. 
+
+Fin de archivo
