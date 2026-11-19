@@ -14,15 +14,20 @@ jobs:
       - name: Descargar código
         uses: actions/checkout@v4
 
-      - name: Validar documentación
-        run: echo "✅ El repositorio se ha descargado correctamente. Pipeline ejecutado."
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
 
-      # Cuando tengan código en la carpeta src/, pueden descomentar estos pasos:
-      # - name: Configurar Node.js
-      #   uses: actions/setup-node@v4
-      #   with:
-      #     node-version: '20'
-      # - name: Instalar dependencias
-      #   run: npm ci
-      # - name: Ejecutar pruebas
-      #   run: npm test
+      - name: Verificar que el código compila
+        run: python -m py_compile saluduni1.2/server.py saluduni1.2/app_wsgi.py
+
+      - name: Verificar que no se subieron bases de datos
+        run: |
+          if git ls-files | grep -E '\.db$'; then
+            echo "::error::Hay archivos .db en el repositorio. Pueden contener datos personales: quitalos."
+            exit 1
+          fi
+
+      - name: Ejecutar pruebas automáticas
+        run: python -m unittest discover -s tests -v
